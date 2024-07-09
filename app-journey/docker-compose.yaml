@@ -20,7 +20,7 @@ services:
     image: postgres:16.2-alpine3.19
     container_name: api-db
     ports:
-      - ${JOURNEY_DATABASE_PORT}:5432
+      - 5432:5432
     environment:
       POSTGRES_USER: ${JOURNEY_DATABASE_USER} 
       POSTGRES_PASSWORD: ${JOURNEY_DATABASE_PASSWORD}
