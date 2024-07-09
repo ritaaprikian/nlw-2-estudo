@@ -15,4 +15,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Build docker image
-      run: docker build -t ritaaprikian/nlw-2-estudo/app-journey:latest .
+      run: docker build -t ritaaprikian/nlw-2-estudo/app-journey:latest -f app-journey/Dockerfile .
