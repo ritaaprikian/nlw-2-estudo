@@ -16,4 +16,3 @@ jobs:
 
     - name: Build docker image
       run: docker build -t ritaaprikian/nlw-2-estudo/app-journey:latest .
-
